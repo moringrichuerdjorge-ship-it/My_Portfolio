@@ -1,0 +1,18 @@
+# Environment variables
+.env
+
+# Telegram credentials (DO NOT COMMIT)
+telegram-config.js
+
+# Node modules if you add dependencies later
+node_modules/
+
+# macOS
+.DS_Store
+
+# Editor files
+.vscode/
+.idea/
+
+# Logs
+*.log
