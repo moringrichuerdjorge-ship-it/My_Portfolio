@@ -1,8 +1,6 @@
 # Environment variables
 .env
 
-# Telegram credentials (DO NOT COMMIT)
-telegram-config.js
 
 # Node modules if you add dependencies later
 node_modules/
