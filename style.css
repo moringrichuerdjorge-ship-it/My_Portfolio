@@ -1427,6 +1427,42 @@ textarea:focus {
         gap: 30px;
     }
 
+    .tools-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+        margin-top: 30px;
+    }
+
+    .tool-card {
+        padding: 30px 25px;
+    }
+
+    .tool-icon {
+        width: 80px;
+        height: 80px;
+        margin: 0 auto 20px;
+    }
+
+    .tool-icon img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .pc-setup-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        margin-top: 30px;
+    }
+
+    .pc-specs {
+        padding: 30px 25px;
+    }
+
+    .spec-group {
+        padding: 12px 15px;
+        margin-bottom: 20px;
+    }
+
     .ghl-stats {
         grid-template-columns: 1fr;
         gap: 25px;
