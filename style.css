@@ -245,8 +245,9 @@ h4 {
     display: flex;
     align-items: center;
     position: relative;
-    padding: 120px 0 80px;
+    padding: 120px 0 40px;
     overflow: hidden;
+    margin-bottom: 0;
 }
 
 .hero-3d-background {
@@ -508,7 +509,8 @@ h4 {
 /* Experiences */
 .experiences,
 .about {
-    padding: 100px 0;
+    padding: 60px 0 100px;
+    margin-top: 0;
 }
 
 .exp-grid {
@@ -1335,13 +1337,17 @@ textarea:focus {
     }
 
     .hero {
-        padding: 100px 0 60px;
+        padding: 100px 0 30px;
         text-align: center;
     }
 
     .hero-container {
         gap: 40px;
         padding: 0 24px;
+    }
+
+    .about {
+        padding: 40px 0 80px;
     }
 
     .hero-content {
@@ -1495,12 +1501,25 @@ textarea:focus {
         display: flex;
     }
 
+    .nav {
+        padding: 12px 0;
+    }
+
+    .nav-container {
+        padding: 0 20px;
+    }
+
+    .nav-logo {
+        font-size: 0.9rem;
+        letter-spacing: 0.5px;
+    }
+
     .nav-menu {
         position: fixed;
-        top: 70px;
+        top: 60px;
         left: -100%;
         width: 100%;
-        height: calc(100vh - 70px);
+        height: calc(100vh - 60px);
         background: rgba(10, 10, 20, 0.98);
         backdrop-filter: blur(20px);
         flex-direction: column;
